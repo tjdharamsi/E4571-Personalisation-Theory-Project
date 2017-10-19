@@ -1,4 +1,4 @@
-# E4571-Personalisation-Theory-Project
+# E4571-Personalisation-Theory-Project  -- Fall 2017
 
 <br>
 
