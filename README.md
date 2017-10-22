@@ -12,7 +12,11 @@
 
 # About the Project  
   
-The project is part of the course on [Personalization Theory and Applications](https://ds-personalization.github.io/class/) by [Prof. Brett Vintch](http://www.cns.nyu.edu/~vintch/). The aim of this project is to create a recommender system for books that offers a customized 
+![Book Shelf Image](http://www.wellbuiltstyle.com/wp-content/uploads/2015/12/library.jpg)  
+_Image Courtesy: WellBuiltStyle.com_  
+
+  
+The project is part of the course on [Personalization Theory and Applications](https://ds-personalization.github.io/class/) by [Prof. Brett Vintch](http://www.cns.nyu.edu/~vintch/). The aim of this project is to create a recommender system for books that is capable of offering customized recommendations to book readers based on the books they have already read.
   
 
 ## Motivation  
@@ -25,5 +29,10 @@ Can the importance of books as loyal friends ever be overestimated? We think not
 
   
 ## Approach  
+
+In this project, we have used a hybrid approach in creating the recommender algorithm which is based on both content-based and context-based collaborative filtering. This gives the recommender system a nice balance.
+
   
-## 
+## Feedback  
+  
+We look forward to your feedback and comments on this project. Our email IDs are a combination of our four-letter UNI codes e.g. 'td2520' and follow the following rule: {UNI}@columbia.edu.
