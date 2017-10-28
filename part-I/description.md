@@ -19,7 +19,8 @@ We plant to achieve our vision through the following mission plan:
   
 ---  
 
-### User: We use the term _**user**_ to describe any person who seeks recommendations for books. He/she may be a new or avid, casual or involved reader.  
+### User  
+We use the term _**user**_ to describe any person who seeks recommendations for books. He/she may be a new or avid, casual or involved reader.  
   
 ---  
 ## Sampling from the dataset  
