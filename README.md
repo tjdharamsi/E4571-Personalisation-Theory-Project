@@ -9,9 +9,25 @@
 - [Vijay Balaji](https://github.com/vijaybalaji30) -- vb2428
 
 <table>
-<tr>
+<th>
   <td>Name</td>
   <td>UNI</td>
+</th>
+<tr>
+  <td>[Tejas Dharamsi](https://github.com/Dharamsitejas)</td>
+  <td>td2520</td>
+</tr>
+<tr>
+  <td>Abhay S Pawar</td>
+  <td>asp2197</td>
+</tr>
+<tr>
+  <td>Janak A Jain</td>
+  <td>jaj2186</td>
+</tr>
+<tr>
+  <td>Vijayraghavan Balaji</td>
+  <td>vb2428</td>
 </tr>
 </table>
 
