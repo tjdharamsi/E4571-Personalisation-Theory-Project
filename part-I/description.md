@@ -17,6 +17,7 @@ We plant to achieve our vision through the following mission plan:
   
 2. **Meaningul recommendations**: The term meaningful needs careful delineation at the very onset - by 'meaningful',  we mean the recommendations that are not just intelligently relevant, but instinctively relevant. This is central to the recommender system which models choices for readers who just do not always want the expected choices. This corresponds to both the concepts of [Situational Equity](http://www.tnsglobal.com/what-we-do/by-expertise/brand-communication/brand-communication/situational-equity) propounded by Kantar TNS and the needs hierarchy, viz. stated, real, unstated, delight and secret needs. In this project, we shall not target secret needs as that requires the kind of data that can be very expensive to collect, we wish to allude to its importance.  
   
+---  
 
 ### User: We use the term _**user**_ to describe any person who seeks recommendations for books. He/she may be a new or avid, casual or involved reader.  
   
