@@ -29,6 +29,6 @@ From the chosen dataset, we have selected records for 10,000 users and ~100 book
   
 ---  
 ## Building two brute-force collaborative filtering algorithms:  
-	1. Neighborhood based: For this approach, we have decided to use user-based collaborative filtering that as we believe there are certain dominant patterns related to personality of users who liek similar books.  
-	2. Model-based: 
+1. Neighborhood based: For this approach, we have decided to use user-based collaborative filtering that as we believe there are certain dominant patterns related to personality of users who liek similar books.  
+2. Model-based: 
   
