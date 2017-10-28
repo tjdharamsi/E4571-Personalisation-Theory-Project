@@ -3,30 +3,31 @@
 <br>
 
 **Team Members:**
-- [Tejas Dharamsi](https://github.com/Dharamsitejas) -- td2520
-- [Abhay S Pawar](https://github.com/abhayspawar) -- asp2197
-- [Janak A Jain](https://github.com/janakajain) -- jaj2186
-- [Vijay Balaji](https://github.com/vijaybalaji30) -- vb2428
 
 <table>
 <th>
   <td>Name</td>
+  <td>GitHub</td>
   <td>UNI</td>
 </th>
 <tr>
-  <td>[Tejas Dharamsi](https://github.com/Dharamsitejas)</td>
+  <td>Tejas Dharamsi</td>
+  <td>https://github.com/Dharamsitejas</td>
   <td>td2520</td>
 </tr>
 <tr>
   <td>Abhay S Pawar</td>
+  <td>https://github.com/abhayspawar</td>
   <td>asp2197</td>
 </tr>
 <tr>
   <td>Janak A Jain</td>
+  <td>https://github.com/janakajain</td>
   <td>jaj2186</td>
 </tr>
 <tr>
   <td>Vijayraghavan Balaji</td>
+  <td>https://github.com/vijaybalaji30</td>
   <td>vb2428</td>
 </tr>
 </table>
