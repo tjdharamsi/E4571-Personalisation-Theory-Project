@@ -5,11 +5,11 @@
 **Team Members:**
 
 <table>
-<th>
+<tr>
   <td>Name</td>
   <td>GitHub</td>
   <td>UNI</td>
-</th>
+</tr>
 <tr>
   <td>Tejas Dharamsi</td>
   <td>https://github.com/Dharamsitejas</td>
