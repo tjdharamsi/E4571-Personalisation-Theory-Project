@@ -8,6 +8,14 @@
 - [Janak A Jain](https://github.com/janakajain) -- jaj2186
 - [Vijay Balaji](https://github.com/vijaybalaji30) -- vb2428
 
+<table>
+<tr>
+  <td>Name</td>
+  <td>UNI</td>
+</tr>
+</table>
+
+
 <hr>
 
 # About the Project  
