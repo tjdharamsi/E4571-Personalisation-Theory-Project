@@ -34,7 +34,8 @@
 
 
 <hr>
-## Steps to run the code
+<br>
+~Steps to run the code~
 
 - Clone/Download the Repository
 - install dependencies `pip3 install -r requirements.txt`
