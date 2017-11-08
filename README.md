@@ -35,14 +35,6 @@
 
 <hr>
 
-# About the Project  
-  
-![Book Shelf Image](http://www.wellbuiltstyle.com/wp-content/uploads/2015/12/library.jpg)  
-_Image Courtesy: WellBuiltStyle.com_  
-
-  
-The project is part of the course on [Personalization Theory and Applications](https://ds-personalization.github.io/class/) by [Prof. Brett Vintch](http://www.cns.nyu.edu/~vintch/). The aim of this project is to create a recommender system for books that is capable of offering customized recommendations to book readers based on the books they have already read.
-
 ### File Structure
 
 Top
@@ -56,6 +48,16 @@ Top
   - License
   - Readme
   - requirements.txt
+
+
+# About the Project  
+  
+![Book Shelf Image](http://www.wellbuiltstyle.com/wp-content/uploads/2015/12/library.jpg)  
+_Image Courtesy: WellBuiltStyle.com_  
+
+  
+The project is part of the course on [Personalization Theory and Applications](https://ds-personalization.github.io/class/) by [Prof. Brett Vintch](http://www.cns.nyu.edu/~vintch/). The aim of this project is to create a recommender system for books that is capable of offering customized recommendations to book readers based on the books they have already read.
+
 
 ## Motivation  
 
