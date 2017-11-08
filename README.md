@@ -52,6 +52,7 @@ Top
     - documents: instructions and report
     - figures: Contains Plots for visualisation
   - Part2
+    - Final_Project_Outline.pdf
   - License
   - Readme
   - requirements.txt
