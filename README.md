@@ -42,6 +42,10 @@
 - move to folder Part1/analysis.
 - Execute CF-Data.ipynb notebook
 
+
+`Report for Part 1 of the project can be found in Part1/documents/report_part1.pdf`
+
+
 ### File Structure
 
 Top
