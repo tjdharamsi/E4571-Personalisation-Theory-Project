@@ -55,7 +55,11 @@ Can the importance of books as loyal friends ever be overestimated? We think not
   
 ## Approach  
 
-In this project, we have used a hybrid approach in creating the recommender algorithm which is based on both content-based and context-based collaborative filtering. This gives the recommender system a nice balance.
+In this project, we shall use a hybrid approach in creating the recommender algorithm which is based on both content-based and context-based collaborative filtering. This gives the recommender system a nice balance.
+
+Currently, the project is in Phase I, which involves exploration of business case and implementation of baseline models on the data as mentioned in the [project guideline](https://github.com/Dharamsitejas/E4571-Personalisation-Theory-Project/blob/master/Part1/documents/mini_project_instructions.pdf).
+  
+**Phase I**: We have implemented two different types of algorithms from scratch and have compared them with competitive models available from other packages. These two algorithms are Non-negative Matrix Factorization (NMF)
 
   
 ## Feedback  
