@@ -34,12 +34,18 @@
 
 
 <hr>
+## Steps to run the code
+
+- Clone/Download the Repository
+- install dependencies `pip3 install -r requirements.txt`
+- move to folder Part1/analysis.
+- Execute CF-Data.ipynb notebook
 
 ### File Structure
 
 Top
   - Part1
-    - analysis
+    - analysis: CF-Data.ipynb main part1 file along with exploratory stuff.
     - clean-data: Contains subset smaller datasets
     - raw-data: Contains book-crossing raw datasets.
     - documents: instructions and report
