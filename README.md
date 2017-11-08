@@ -42,7 +42,20 @@ _Image Courtesy: WellBuiltStyle.com_
 
   
 The project is part of the course on [Personalization Theory and Applications](https://ds-personalization.github.io/class/) by [Prof. Brett Vintch](http://www.cns.nyu.edu/~vintch/). The aim of this project is to create a recommender system for books that is capable of offering customized recommendations to book readers based on the books they have already read.
-  
+
+### File Structure
+
+Top
+  - Part1
+    - analysis
+    - clean-data: Contains subset smaller datasets
+    - raw-data: Contains book-crossing raw datasets.
+    - documents: instructions and report
+    - figures: Contains Plots for visualisation
+  - Part2
+  - License
+  - Readme
+  - requirements.txt
 
 ## Motivation  
 
