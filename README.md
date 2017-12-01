@@ -34,18 +34,6 @@
 
 <hr>
 <br>
-~Steps to run the code~
-
-- Clone/Download the Repository
-- install dependencies `pip3 install -r requirements.txt`
-- move to folder Part1/analysis.
-- Execute CF-Data.ipynb notebook
-
-
-> Report for Part 1 of the project can be found in [Part1/documents/report_part1.pdf](https://github.com/Dharamsitejas/E4571-Personalisation-Theory-Project/blob/master/Part1/documents/report_part1.pdf)
-  
-> Note: The main file containing the code is [CF-Data.ipynb](https://github.com/Dharamsitejas/E4571-Personalisation-Theory-Project/blob/master/Part1/analysis/CF-Data.ipynb)
-
 
 ### File Structure
 
@@ -85,6 +73,46 @@ Can the importance of books as loyal friends ever be overestimated? We think not
 ## Approach  
 
 In this project, we have used a hybrid approach in creating the recommender algorithm which is based on both content-based and context-based collaborative filtering. This gives the recommender system a nice balance.
+
+
+## Results  
+  
+We used two separate models for this study - one model was developed from scratch, while one was developed using [Surprise](http://surpriselib.com/). Our model performed better than Surprise model by a significant measure for Average MAE; the results are described below:
+
+<table>
+  <th>
+    <td>Model Name</td>
+    <td>Average RMSE</td>
+    <td>Average MAE</td>
+  </th>
+  <tr>
+    <td><b>Our model</b></td>
+    <td>1.54</td>
+    <td>0.96</td>
+  </tr>
+  <tr>
+    <td><b>Suprise</b></td>
+    <td>1.58</td>
+    <td>1.13</td>
+  </tr>
+ </th>
+</table>
+
+
+
+## Code
+
+#### Steps to run the code
+
+- Clone/Download the Repository
+- install dependencies `pip3 install -r requirements.txt`
+- move to folder Part1/analysis.
+- Execute CF-Data.ipynb notebook
+
+
+> Report for Part 1 of the project can be found in [Part1/documents/report_part1.pdf](https://github.com/Dharamsitejas/E4571-Personalisation-Theory-Project/blob/master/Part1/documents/report_part1.pdf)
+  
+> Note: The main file containing the code is [CF-Data.ipynb](https://github.com/Dharamsitejas/E4571-Personalisation-Theory-Project/blob/master/Part1/analysis/CF-Data.ipynb)
 
   
 ## Feedback  
