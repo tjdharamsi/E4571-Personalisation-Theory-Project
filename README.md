@@ -32,6 +32,35 @@
 </tr>
 </table>
 
+<hr>
+<br>
+~Steps to run the code~
+
+- Clone/Download the Repository
+- install dependencies `pip3 install -r requirements.txt`
+- move to folder Part1/analysis.
+- Execute CF-Data.ipynb notebook
+
+
+> Report for Part 1 of the project can be found in [Part1/documents/report_part1.pdf](https://github.com/Dharamsitejas/E4571-Personalisation-Theory-Project/blob/master/Part1/documents/report_part1.pdf)
+  
+> Note: The main file containing the code is [CF-Data.ipynb](https://github.com/Dharamsitejas/E4571-Personalisation-Theory-Project/blob/master/Part1/analysis/CF-Data.ipynb)
+
+
+### File Structure
+
+#### Top
+* Part1
+    - [analysis](https://github.com/Dharamsitejas/E4571-Personalisation-Theory-Project/tree/master/Part1/analysis): CF-Data.ipynb main part1 file along with exploratory stuff.
+    - [clean-data](https://github.com/Dharamsitejas/E4571-Personalisation-Theory-Project/tree/master/Part1/clean-data): Contains subset smaller datasets
+    - [raw-data](https://github.com/Dharamsitejas/E4571-Personalisation-Theory-Project/tree/master/Part1/raw-data): Contains book-crossing raw datasets.
+    - [documents](https://github.com/Dharamsitejas/E4571-Personalisation-Theory-Project/tree/master/Part1/documents): instructions and report
+    - [figures](https://github.com/Dharamsitejas/E4571-Personalisation-Theory-Project/tree/master/Part1/figures): Contains Plots for visualisation
+* Part2
+    - [Final_Project_Outline.pdf](https://github.com/Dharamsitejas/E4571-Personalisation-Theory-Project/blob/master/Part2/outline.pdf)
+  - License
+  - Readme
+  - requirements.txt
 
 <hr>
 
