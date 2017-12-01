@@ -92,7 +92,7 @@ For both these approaches, we implemented two separate models for this study - o
 
 For each approach the results are described below below for each of the norms, viz. **Euclidean distance**, **cosine distance** and **pearson correlation coefficient**:
 
-#### Approach 1: Item-Item Collaborative filtering based
+### Approach 1: Item-Item Collaborative filtering based
 
 <table>
   <caption><b><i>Euclidean distance</b></i></caption>
@@ -157,7 +157,7 @@ For each approach the results are described below below for each of the norms, v
 
 
 
-#### Approach 2: None-negative Matrix Factorization
+### Approach 2: None-negative Matrix Factorization
 
 <table>
   <caption><b><i>NMF</b></i></caption>
