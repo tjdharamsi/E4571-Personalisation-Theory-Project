@@ -75,12 +75,25 @@ Can the importance of books as loyal friends ever be overestimated? We think not
 In this project, we have used a hybrid approach in creating the recommender algorithm which is based on both content-based and context-based collaborative filtering. This gives the recommender system a nice balance.
 
 
-## Results  
+## Part I - Summary of findings 
   
-We used two separate models for this study - one model was developed from scratch, while one was developed using [Surprise](http://surpriselib.com/). Our model performed better than Surprise model by a significant measure for Average MAE; the results are described below:
+We implemented our models using two approaches:
+ - Collaborative filtering based (Approach 1)
+ - Non-negative Matrix Factorization (NMF)based (Approach 2)
+ 
+ For both these approaches, we implemented two separate models for this study - one model was developed from scratch, while one was developed using [Surprise](http://surpriselib.com/). 
+ 
+**Results**:  
+  
+- For Approach 1, our model performed better than Surprise model for by a significant measure for Average MAE. 
+- For Approach 2, our model did not fare well in front of Surprise model.
+
+For each approach the results are described below below for each of the norms, viz. **Euclidean distance**, **cosine distance** and **pearson correlation coefficient**:
+
+#### Approach 1: Collaborative filtering based
 
 <table>
-  <caption><b><i>Euclidean</b></i></caption>
+  <caption><b><i>Euclidean distance</b></i></caption>
   <tr>
     <th>Model Name</th>
     <th>Average RMSE</th>
@@ -95,6 +108,47 @@ We used two separate models for this study - one model was developed from scratc
     <td><b>Suprise</b></td>
     <td>1.58</td>
     <td>1.13</td>
+  </tr>
+ </th>
+</table>
+  
+<table>
+  <caption><b><i>Cosine similarity</b></i></caption>
+  <tr>
+    <th>Model Name</th>
+    <th>Average RMSE</th>
+    <th>Average MAE</th>
+  </tr>
+  <tr>
+    <td><b>Our model</b></td>
+    <td>1.57</td>
+    <td>1.06</td>
+  </tr>
+  <tr>
+    <td><b>Suprise</b></td>
+    <td>1.64</td>
+    <td>1.22</td>
+  </tr>
+ </th>
+</table>
+
+
+<table>
+  <caption><b><i>Pearson correlation coefficient</b></i></caption>
+  <tr>
+    <th>Model Name</th>
+    <th>Average RMSE</th>
+    <th>Average MAE</th>
+  </tr>
+  <tr>
+    <td><b>Our model</b></td>
+    <td>1.53</td>
+    <td>1.01</td>
+  </tr>
+  <tr>
+    <td><b>Suprise</b></td>
+    <td>1.61</td>
+    <td>1.20</td>
   </tr>
  </th>
 </table>
