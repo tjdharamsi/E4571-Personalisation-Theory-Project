@@ -170,13 +170,13 @@ For each approach the results are described below below for each of the norms, v
   </tr>
   <tr>
     <td><b>Our model</b></td>
-    <td>2.97</td>
     <td>2</td>
+    <td>2.97</td>
   </tr>
   <tr>
     <td><b>Suprise</b></td>
-    <td>0.98</td>
     <td>1.53</td>
+    <td>0.98</td>
   </tr>
  </th>
 </table>
