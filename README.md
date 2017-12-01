@@ -80,11 +80,12 @@ In this project, we have used a hybrid approach in creating the recommender algo
 We used two separate models for this study - one model was developed from scratch, while one was developed using [Surprise](http://surpriselib.com/). Our model performed better than Surprise model by a significant measure for Average MAE; the results are described below:
 
 <table>
-  <th>
-    <td>Model Name</td>
-    <td>Average RMSE</td>
-    <td>Average MAE</td>
-  </th>
+  <caption><b><i>Euclidean</b></i></caption>
+  <tr>
+    <th>Model Name</th>
+    <th>Average RMSE</th>
+    <th>Average MAE</th>
+  </tr>
   <tr>
     <td><b>Our model</b></td>
     <td>1.54</td>
