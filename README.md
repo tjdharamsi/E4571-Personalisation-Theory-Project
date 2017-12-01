@@ -72,7 +72,7 @@ Can the importance of books as loyal friends ever be overestimated? We think not
   
 ## Approach  
 
-In this project, we have used a hybrid approach in creating the recommender algorithm which is based on both content-based and context-based collaborative filtering. This gives the recommender system a nice balance.
+In this project, we shall use a hybrid approach in creating the recommender algorithm which is based on both content-based and context-based collaborative filtering. This will give the recommender system a nice balance.
 
 
 ## Part I - Summary of findings 
@@ -80,8 +80,10 @@ In this project, we have used a hybrid approach in creating the recommender algo
 We implemented our models using two approaches:
  - Collaborative filtering based (Approach 1)
  - Non-negative Matrix Factorization (NMF)based (Approach 2)
- 
- For both these approaches, we implemented two separate models for this study - one model was developed from scratch, while one was developed using [Surprise](http://surpriselib.com/). 
+
+We used cross-validation for all of our developed models, which helped us in selecting the best model for comparison against the benchmark.
+
+For both these approaches, we implemented two separate models for this study - one model was developed from scratch, while one was developed using [Surprise](http://surpriselib.com/). 
  
 **Results**:  
   
@@ -90,7 +92,7 @@ We implemented our models using two approaches:
 
 For each approach the results are described below below for each of the norms, viz. **Euclidean distance**, **cosine distance** and **pearson correlation coefficient**:
 
-#### Approach 1: Collaborative filtering based
+#### Approach 1: Item-Item Collaborative filtering based
 
 <table>
   <caption><b><i>Euclidean distance</b></i></caption>
@@ -154,6 +156,29 @@ For each approach the results are described below below for each of the norms, v
 </table>
 
 
+
+#### Approach 2: None-negative Matrix Factorization
+
+<table>
+  <caption><b><i>NMF</b></i></caption>
+  <tr>
+    <th>Model Name</th>
+    <th>Average RMSE</th>
+    <th>Average MAE</th>
+  </tr>
+  <tr>
+    <td><b>Our model</b></td>
+    <td>2.97</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td><b>Suprise</b></td>
+    <td>0.98</td>
+    <td>1.53</td>
+  </tr>
+ </th>
+</table>
+  
 
 ## Code
 
