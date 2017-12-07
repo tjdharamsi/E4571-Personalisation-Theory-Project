@@ -88,7 +88,7 @@ In this project, we shall use a hybrid approach in creating the recommender algo
 
 Currently, the project is in Phase I, which involves exploration of business case and implementation of baseline models on the data as mentioned in the [project guideline](https://github.com/Dharamsitejas/E4571-Personalisation-Theory-Project/blob/master/Part1/documents/mini_project_instructions.pdf).
   
-**Phase I**: We have implemented two different types of algorithms from scratch and have compared them with competitive models available from other packages. These two algorithms are Non-negative Matrix Factorization (NMF)
+**Phase I**: We have implemented two different types of algorithms from scratch and have compared them with competitive models available from other packages. These two algorithms are Item-Item Collaborative Filtering and  Non-negative Matrix Factorization (NMF)
 
   
 ## Feedback  
