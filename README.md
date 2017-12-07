@@ -59,9 +59,9 @@
     - [figures](https://github.com/Dharamsitejas/E4571-Personalisation-Theory-Project/tree/master/Part1/figures): Contains Plots for visualisation
 * Part2
     - [Final_Project_Outline.pdf](https://github.com/Dharamsitejas/E4571-Personalisation-Theory-Project/blob/master/Part2/outline.pdf)
-  - License
-  - Readme
-  - requirements.txt
+* License
+* Readme
+* requirements.txt
 
 
 # About the Project  
