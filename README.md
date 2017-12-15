@@ -88,7 +88,116 @@ In this project, we shall use a hybrid approach in creating the recommender algo
 
 Currently, the project is in Phase I, which involves exploration of business case and implementation of baseline models on the data as mentioned in the [project guideline](https://github.com/Dharamsitejas/E4571-Personalisation-Theory-Project/blob/master/Part1/documents/mini_project_instructions.pdf).
   
-**Phase I**: We have implemented two different types of algorithms from scratch and have compared them with competitive models available from other packages. These two algorithms are Item-Item Collaborative Filtering and  Non-negative Matrix Factorization (NMF)
+
+## Part I - Summary of findings 
+
+We have implemented two different types of algorithms from scratch and have compared them with competitive models available from other packages. These two algorithms are Item-Item Collaborative Filtering and  Non-negative Matrix Factorization (NMF)
+
+We implemented our models using two approaches:
+ - Collaborative filtering based (Approach 1)
+ - Non-negative Matrix Factorization (NMF)based (Approach 2)
+
+We used cross-validation for all of our developed models, which helped us in selecting the best model for comparison against the benchmark.
+
+For both these approaches, we implemented two separate models for this study - one model was developed from scratch, while one was developed using [Surprise](http://surpriselib.com/). 
+ 
+**Results**:  
+  
+- For Approach 1, our model performed better than Surprise model for by a significant measure for Average MAE. 
+- For Approach 2, our model did not fare well in front of Surprise model.
+
+For each approach the results are described below below for each of the norms, viz. **Euclidean distance**, **cosine distance** and **pearson correlation coefficient**:
+
+### Approach 1: Item-Item Collaborative filtering based
+  
+  
+<table>
+  <caption><b><i>Euclidean distance</b></i></caption>
+  <tr>
+    <th>Model Name</th>
+    <th>Average RMSE</th>
+    <th>Average MAE</th>
+  </tr>
+  <tr>
+    <td><b>Our model</b></td>
+    <td>1.54</td>
+    <td>0.96</td>
+  </tr>
+  <tr>
+    <td><b>Suprise</b></td>
+    <td>1.58</td>
+    <td>1.13</td>
+  </tr>
+ </th>
+</table>
+  
+<table>
+  <caption><b><i>Cosine similarity</b></i></caption>
+  <tr>
+    <th>Model Name</th>
+    <th>Average RMSE</th>
+    <th>Average MAE</th>
+  </tr>
+  <tr>
+    <td><b>Our model</b></td>
+    <td>1.57</td>
+    <td>1.06</td>
+  </tr>
+  <tr>
+    <td><b>Suprise</b></td>
+    <td>1.64</td>
+    <td>1.22</td>
+  </tr>
+ </th>
+</table>
+
+
+<table>
+  <caption><b><i>Pearson correlation coefficient</b></i></caption>
+  <tr>
+    <th>Model Name</th>
+    <th>Average RMSE</th>
+    <th>Average MAE</th>
+  </tr>
+  <tr>
+    <td><b>Our model</b></td>
+    <td>1.53</td>
+    <td>1.01</td>
+  </tr>
+  <tr>
+    <td><b>Suprise</b></td>
+    <td>1.61</td>
+    <td>1.20</td>
+  </tr>
+ </th>
+</table>
+
+---  
+
+### Approach 2: None-negative Matrix Factorization
+  
+  
+<table>
+  <caption><b><i>NMF</b></i></caption>
+  <tr>
+    <th>Model Name</th>
+    <th>Average RMSE</th>
+    <th>Average MAE</th>
+  </tr>
+  <tr>
+    <td><b>Our model</b></td>
+    <td>2.97</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td><b>Suprise</b></td>
+    <td>1.53</td>
+    <td>0.98</td>
+  </tr>
+ </th>
+</table>
+  
+
 
   
 ## Feedback  
