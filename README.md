@@ -80,13 +80,6 @@ The project is part of the course on [Personalization Theory and Applications](h
 Thanks to [Gutenberg](https://en.wikipedia.org/wiki/Johannes_Gutenberg) and now, the digital boom, we now have access to a huge amount of collective intelligence, wisdom and stories. Indeed, humans perish but their voice continues to resonate through humans brains and minds long after they are gone - sometimes provoking us to think, making us parts of revolutions and sometimes confiding in us with their secrets. They have the ability to make us laugh, cry, think - think hard, and most imporantly, change our lives the way, perhaps nobody else can. In this sense, books are truly our loyal friends.
 
 Can the importance of books as loyal friends ever be overestimated? We think not. Which is why we think that creating just the 'right' recommendations for readers is a noble objective. Consider it a quieter (Shh.. no noise in this library! :)) Facebook or a classier Tinder for those who like to read and listen, patiently.
-
-  
-## Approach  
-
-In this project, we shall use a hybrid approach in creating the recommender algorithm which is based on both content-based and context-based collaborative filtering. This gives the recommender system a nice balance.
-
-Currently, the project is in Phase I, which involves exploration of business case and implementation of baseline models on the data as mentioned in the [project guideline](https://github.com/Dharamsitejas/E4571-Personalisation-Theory-Project/blob/master/Part1/documents/mini_project_instructions.pdf).
   
 
 ## Part I - Summary of findings 
