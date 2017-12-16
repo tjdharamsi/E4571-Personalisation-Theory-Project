@@ -51,14 +51,8 @@
 ### File Structure
 
 #### Top
-* Part1
-    - [analysis](https://github.com/Dharamsitejas/E4571-Personalisation-Theory-Project/tree/master/Part1/analysis): CF-Data.ipynb main part1 file along with exploratory stuff.
-    - [clean-data](https://github.com/Dharamsitejas/E4571-Personalisation-Theory-Project/tree/master/Part1/clean-data): Contains subset smaller datasets
-    - [raw-data](https://github.com/Dharamsitejas/E4571-Personalisation-Theory-Project/tree/master/Part1/raw-data): Contains book-crossing raw datasets.
-    - [documents](https://github.com/Dharamsitejas/E4571-Personalisation-Theory-Project/tree/master/Part1/documents): instructions and report
-    - [figures](https://github.com/Dharamsitejas/E4571-Personalisation-Theory-Project/tree/master/Part1/figures): Contains Plots for visualisation
 * Part2
-    - [Final_Project_Outline.pdf](https://github.com/Dharamsitejas/E4571-Personalisation-Theory-Project/blob/master/Part2/outline.pdf)
+    
     - analysis  
       + _DatasetCreation\_Benchmark\_ContentBased.ipynb_: contains the code for combination of dataset, Naïve baseline model, item-item collaborative filtering model and content based model
       + _LSH_Complete.ipynb_: contains the code for LSH model
@@ -68,8 +62,13 @@
       + _Combine.csv_ : contains the combined dataset of BX and Amazon dataset  
       + _book_features.csv_: contains the data with features generated using word2vec     
       + _ibsn_features_new_batch.pickle_: contains the data with features extracted BookReads API and enriched using word2vec  
-      
-    - Goodreads Merged Features.ipynb
+   - [Final_Project_Outline.pdf](https://github.com/Dharamsitejas/E4571-Personalisation-Theory-Project/blob/master/Part2/outline.pdf)
+* Part1
+    - [analysis](https://github.com/Dharamsitejas/E4571-Personalisation-Theory-Project/tree/master/Part1/analysis): CF-Data.ipynb main part1 file along with exploratory stuff.
+    - [clean-data](https://github.com/Dharamsitejas/E4571-Personalisation-Theory-Project/tree/master/Part1/clean-data): Contains subset smaller datasets
+    - [raw-data](https://github.com/Dharamsitejas/E4571-Personalisation-Theory-Project/tree/master/Part1/raw-data): Contains book-crossing raw datasets.
+    - [documents](https://github.com/Dharamsitejas/E4571-Personalisation-Theory-Project/tree/master/Part1/documents): instructions and report
+    - [figures](https://github.com/Dharamsitejas/E4571-Personalisation-Theory-Project/tree/master/Part1/figures): Contains Plots for visualisation
 * License
 * Readme
 * requirements.txt
