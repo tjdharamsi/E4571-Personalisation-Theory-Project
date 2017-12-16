@@ -96,7 +96,7 @@ Can the importance of books as loyal friends ever be overestimated? We think not
   
 ## Part II - Summary of findings 
 
-We have implemented four different types of algorithms from scratch and have compared them with with a naïve model. These four models are Tree-based Approximate Nearest Neighbor (ANN), Locality Sensitive Hashing (LSH), Item-item collaborative filtering (CF) and Content-based model.
+We have implemented four different types of algorithms from scratch and have compared them with with a naïve model. These four models are Tree-based Approximate Nearest Neighbor (ANN), Locality Sensitive Hashing (LSH), Item-item collaborative filtering (CF) and Content-based model. We also created a hybrid model that is a combination of LSH and Content-based model.
 
 We used five-fold cross-validation for all of our developed models, which helped us in selecting the best model for comparison against the benchmark.
 
@@ -121,6 +121,24 @@ We have evaluated each of the developed models on following evaluation metrics:
   </tr>
   
   <tr>
+    <td><b>Naïve</b></td>
+    <td>N/A</td>
+    <td>n/a</td>
+    <td>0.763</td>
+    <td>0.944</td>
+    <td>N/A</td>
+  </tr>
+  
+  <tr>
+    <td><b>Item-item CF</b></td>
+    <td>4.1</td>
+    <td>15</td>
+    <td>0.553</td>
+    <td>0.759</td>
+    <td>76.0%</td>
+  </tr>
+  
+  <tr>
     <td><b>Tree based ANN</b></td>
     <td>1.927</td>
     <td>20</td>
@@ -139,24 +157,6 @@ We have evaluated each of the developed models on following evaluation metrics:
   </tr>
   
   <tr>
-    <td><b>Item-item CF</b></td>
-    <td>4.1</td>
-    <td>15</td>
-    <td>0.553</td>
-    <td>0.759</td>
-    <td>76.0%</td>
-  </tr>
-  
-  <tr>
-    <td><b>Naïve</b></td>
-    <td>N/A</td>
-    <td>n/a</td>
-    <td>0.763</td>
-    <td>0.944</td>
-    <td>N/A</td>
-  </tr>
-  
-  <tr>
     <td><b>Content-based</b></td>
     <td>0.5 (approx.)</td>
     <td>25</td>
@@ -164,6 +164,17 @@ We have evaluated each of the developed models on following evaluation metrics:
     <td>0.8031</td>
     <td>31.55%</td>
   </tr>
+  
+  <tr>
+    <td><b>Hybrid (LSH + Contentt)</b></td>
+    <td>1.79</td>
+    <td>15</td>
+    <td>0.5834</td>
+    <td>0.799</td>
+    <td>46.54%</td>
+  </tr>
+  
+  
   
 </table>
   
