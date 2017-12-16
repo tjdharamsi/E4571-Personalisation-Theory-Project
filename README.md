@@ -174,11 +174,57 @@ We have evaluated each of the developed models on following evaluation metrics:
     <td>46.54%</td>
   </tr>
   
-  
-  
 </table>
   
+### Tweaking the Hybrid model  
+  
+After developing the Hybrid model from scratch, the next step for us was to evaluate it different values of its hyper-parameter - the distribution of weights on the two underlying models. Given below is a summary of the MAE and RMSE metrics for the Hybrid model for various combinations of these weights.
 
+<table>
+  <caption><b><i>Performance of the Hybrid model for various weight combinations of the underlying models</b></i></caption>
+  <tr>
+    <th>W_LSH</th>
+    <th>W_Content</th>
+    <th>MAE</th>
+    <th>RMSE</th>
+  </tr>
+  
+  <tr>
+    <td><b>0.9</b></td>
+    <td>0.1</td>
+    <td>0.587</td>
+    <td>0.813</td>
+  </tr>
+  
+  <tr>
+    <td><b>0.8</b></td>
+    <td>0.2</td>
+    <td>0.585</td>
+    <td>0.806</td>
+  </tr>
+  
+  <tr>
+    <td><b>0.7</b></td>
+    <td>0.3</td>
+    <td>0.583</td>
+    <td>0.799</td>
+  </tr>
+  
+  <tr>
+    <td><b>0.6</b></td>
+    <td>0.4</td>
+    <td>0.583</td>
+    <td>0.796</td>
+  </tr>
+  
+  <tr>
+    <td><b>0.5</b></td>
+    <td>0.5</td>
+    <td>0.583</td>
+    <td>0.792</td>
+  </tr>
+
+</table>
 
   
 ---
