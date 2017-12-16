@@ -92,6 +92,85 @@ Thanks to [Gutenberg](https://en.wikipedia.org/wiki/Johannes_Gutenberg) and now,
 
 Can the importance of books as loyal friends ever be overestimated? We think not. Which is why we think that creating just the 'right' recommendations for readers is a noble objective. Consider it a quieter (Shh.. no noise in this library! :)) Facebook or a classier Tinder for those who like to read and listen, patiently.
   
+---  
+  
+## Part II - Summary of findings 
+
+We have implemented four different types of algorithms from scratch and have compared them with with a naïve model. These four models are Tree-based Approximate Nearest Neighbor (ANN), Locality Sensitive Hashing (LSH), Item-item collaborative filtering (CF) and Content-based model.
+
+We used five-fold cross-validation for all of our developed models, which helped us in selecting the best model for comparison against the benchmark.
+
+We have evaluated each of the developed models on following evaluation metrics:
+- Training time
+- RMSE
+- MAE
+- Coverage
+- Novelty
+ 
+**Results**:  
+  
+<table>
+  <caption><b><i>Comparison of several models on various comparison metrics</b></i></caption>
+  <tr>
+    <th>Model Name</th>
+    <th>Training Time (hours)</th>
+    <th>Best K</th>
+    <th>Average Test MAE</th>
+    <th>Average Test RMSE</th>
+    <th>Coverage</th>
+  </tr>
+  
+  <tr>
+    <td><b>Tree based ANN</b></td>
+    <td>1.927</td>
+    <td>20</td>
+    <td>0.55</td>
+    <td>0.76</td>
+    <td></td>
+  </tr>
+  
+  <tr>
+    <td><b>LSH</b></td>
+    <td>1.29</td>
+    <td>15</td>
+    <td>0.573</td>
+    <td>0.796</td>
+    <td>65.6%</td>
+  </tr>
+  
+  <tr>
+    <td><b>Item-item CF</b></td>
+    <td>4.1</td>
+    <td>15</td>
+    <td>0.553</td>
+    <td>0.759</td>
+    <td>76.0%</td>
+  </tr>
+  
+  <tr>
+    <td><b>Naïve</b></td>
+    <td>N/A</td>
+    <td>n/a</td>
+    <td>0.763</td>
+    <td>0.944</td>
+    <td>N/A</td>
+  </tr>
+  
+  <tr>
+    <td><b>Content-based</b></td>
+    <td>0.5 (approx.)</td>
+    <td>25</td>
+    <td>0.593</td>
+    <td>0.8031</td>
+    <td>31.55%</td>
+  </tr>
+  
+</table>
+  
+
+
+  
+---
 
 ## Part I - Summary of findings 
 
