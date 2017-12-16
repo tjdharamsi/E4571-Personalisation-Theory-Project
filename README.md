@@ -126,7 +126,7 @@ We have evaluated each of the developed models on following evaluation metrics:
   <tr>
     <td><b>Naïve</b></td>
     <td>N/A</td>
-    <td>n/a</td>
+    <td>N/A</td>
     <td>0.763</td>
     <td>0.944</td>
     <td>N/A</td>
