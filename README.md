@@ -60,12 +60,15 @@
 * Part2
     - [Final_Project_Outline.pdf](https://github.com/Dharamsitejas/E4571-Personalisation-Theory-Project/blob/master/Part2/outline.pdf)
     - analysis  
-      + DatasetCreation\_Benchmark\_ContentBased.ipynb: contains the code for combination of dataset, Naïve baseline model, item-item collaborative filtering model and content based model
-      + LSH_Complete.ipynb: contains the code for LSH model
-      + book\_features.ipynb: contains the code for generating word2vec features for books
+      + _DatasetCreation\_Benchmark\_ContentBased.ipynb_: contains the code for combination of dataset, Naïve baseline model, item-item collaborative filtering model and content based model
+      + _LSH_Complete.ipynb_: contains the code for LSH model
+      + _book\_features.ipynb_: contains the code for generating word2vec features for books
 
-
-    - created\_datasets
+    - created\_datasets      		
+      + _Combine.csv_ : contains the combined dataset of BX and Amazon dataset  
+      + _book_features.csv_: contains the data with features generated using word2vec     
+      + _ibsn_features_new_batch.pickle_: contains the data with features extracted BookReads API and enriched using word2vec  
+      
     - Goodreads Merged Features.ipynb
 * License
 * Readme
