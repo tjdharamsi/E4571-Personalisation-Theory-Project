@@ -60,7 +60,8 @@
       + _Hybrid.ipynb_: Contains code for Hybrid Model: LSH Model + Content Based Model, Validates serendpity for books recommended by our best model: LSH
       + _LSH_Complete.ipynb_: contains the code for LSH model
       + _book\_features.ipynb_: contains the code for generating word2vec features for books
-      + _feature_extraction_from_api.ipynb_: Contains code to get book meta data from goodreads API using book isbn
+      + _feature_extraction_from_api.ipynb_: Contains code to get book meta data from goodreads API using book isbn  
+      + tree_based_ann.ipynb: contains the code for Tree Based ANN model
 
     - [created\_datasets](https://github.com/Dharamsitejas/E4571-Personalisation-Theory-Project/tree/master/Part2/created_datasets)
       + _Combine.csv_ : contains the combined dataset of BX and Amazon dataset  
