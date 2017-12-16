@@ -41,13 +41,12 @@
 
 - Clone/Download the Repository
 - install dependencies `pip3 install -r requirements.txt`
-- move to folder Part1/analysis.
-- Execute CF-Data.ipynb notebook
+- move to folder Part2/analysis.
 
 
 > Report for Part 1 of the project can be found in [Part1/documents/report_part1.pdf](https://github.com/Dharamsitejas/E4571-Personalisation-Theory-Project/blob/master/Part1/documents/report_part1.pdf)
   
-> Note: The main file containing the code is [CF-Data.ipynb](https://github.com/Dharamsitejas/E4571-Personalisation-Theory-Project/blob/master/Part1/analysis/CF-Data.ipynb)
+> Note: The main file containing the code for Part 1 is [CF-Data.ipynb](https://github.com/Dharamsitejas/E4571-Personalisation-Theory-Project/blob/master/Part1/analysis/CF-Data.ipynb)
 
 
 ### File Structure
@@ -240,9 +239,9 @@ We selected the Hybrid model with a W\_lsh to W\_content weight ratio of 7:3 in 
   
 Our best model is LSH - which has comparable values of MAE and RMSE versus the traditional item-based CF model. Moreover, LSH trains in about a third of the time taken to train the item-based CF model. Another evaluation metric is serendity or novelty of recommendations.  
   
-An example of recommendation is shown in Figures 8 and 9 in [the report](). An interesting recommendation that can be observed from Figure 9 is "Don Quixote". It belongs to a genre that is not currently present in the user's rapport of genres. What's more is that Don Quixote is considered one of the most influential works from the Spanish Golden Age.  
+An example of recommendation is shown in Figures 8 and 9 in [the report](https://github.com/Dharamsitejas/E4571-Personalisation-Theory-Project/blob/master/Part2/report/final_project_report.pdf). An interesting recommendation that can be observed from Figure 9 is "Don Quixote". It belongs to a genre that is not currently present in the user's rapport of genres. What's more is that Don Quixote is considered one of the most influential works from the Spanish Golden Age.  
   
-Upon closer observation, we find that Don Quixote contains several thematic plots and stylistic elements which are very similar to other books that the user has read. This is perhaps because we have used features generated from word2vec which is able to identify relationships between books based on their descriptions. Moreover, such a serendipitous result is also likely to be liked by the user given the higher chances of similarity in stylistic and thematic patterns.   
+Upon closer observation, we find that Don Quixote contains several thematic plots and stylistic elements which are very similar to other books that the user has read. Moreover, such a serendipitous result is also likely to be liked by the user given the higher chances of similarity in stylistic and thematic patterns.   
   
 ### Future Scope of Work  
   
