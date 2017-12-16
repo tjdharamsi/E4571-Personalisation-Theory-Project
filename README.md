@@ -158,7 +158,7 @@ We have evaluated each of the developed models on following evaluation metrics:
   
   <tr>
     <td><b>Content-based</b></td>
-    <td>0.5 (approx.)</td>
+    <td>0.6 (approx.)</td>
     <td>25</td>
     <td>0.593</td>
     <td>0.8031</td>
@@ -167,7 +167,7 @@ We have evaluated each of the developed models on following evaluation metrics:
   
   <tr>
     <td><b>Hybrid (LSH + Contentt)</b></td>
-    <td>1.79</td>
+    <td>1.89</td>
     <td>15</td>
     <td>0.5834</td>
     <td>0.799</td>
