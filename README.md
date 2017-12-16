@@ -226,6 +226,13 @@ After developing the Hybrid model from scratch, the next step for us was to eval
 
 </table>
 
+### Interpretations  
+  
+We selected the Hybrid model with a W\_lsh to W\_content weight ratio of 7:3 in order to select the right blend of coverage and serendipity. However, we observed that even at this level, the coverage of the model was significatly lower than that of the LSH model that we implemented from scratch. Hence, we would recommend the use of LSH model for making recommendations.  
+  
+### Future Scope of Work  
+  
+In the future, we would like to extend this study to convert our code into a Python package and publish a paper on the same. We invite members of the larger academic community to contribute to this project.
   
 ---
 
