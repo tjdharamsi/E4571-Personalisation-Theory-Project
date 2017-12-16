@@ -2,6 +2,8 @@
 
 <br>
 
+> Report for Part 2 of the project can be found in [Part2/report/final_project_report.pdf](https://github.com/Dharamsitejas/E4571-Personalisation-Theory-Project/blob/master/Part2/report/final_project_report.pdf)
+
 **Team Members:**
 
 <table>
